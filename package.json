@@ -23,11 +23,13 @@
   },
   "devDependencies": {
     "async": "1.5.x",
-    "cli-color": "1.1.x",
-    "eslint": "^3.4.0",
-    "endpoint": "0.4.x"
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "cli-color": "1.2.x",
+    "endpoint": "0.4.x",
+    "eslint": "^4.3.0"
   },
   "engines": {
-    "node": "^4.7 || >=6.9 || >=7.3"
+    "node": "(>=4.7 || >=6.9 || >=7.3) && <8.0"
   }
 }
